@@ -1,0 +1,28 @@
+export const BONUS_TYPES = {
+    EXTEND_PADDLE: 0,
+    SPEED_UP_PADDLE: 1,
+    SLOW_DOWN_BALL: 2,
+    EXPLODE_BOTTOM_ROW: 3,
+    SPLIT_BALL: 4,
+    EXTRA_ATTEMPT: 5,
+    INCREASE_BALL_SIZE: 6,
+    EXPLOSIVE_BALL: 7
+};
+
+export const DEBUFF_TYPES = {
+    SHRINK_PADDLE: 0,
+    SPEED_UP_BALL: 1,
+    DROP_BRICKS: 2,
+    DECREASE_BALL_SIZE: 3
+};
+
+export const BRICK_TYPES = {
+    NORMAL: 0,
+    STRONG: 1,
+    BONUS: 2,
+    DEBUFF: 3,
+    DYNAMITE: 4,
+    METAL: 5,
+    INVINCIBLE: 6,
+    SAND: 7
+};
